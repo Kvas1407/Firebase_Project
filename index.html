@@ -7,12 +7,22 @@
         <title>API</title>
     </head>
     <body>
+
+    <form id="form">
+        First Name: 
+        <input type="text" id="fistname">
+        <br><br>
+        Last Name:
+        <input type="text" id="lastname">
+        <br><br>
+        <input type="Submit" id="Submit">
+    </form>
         <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-     <script src="https://www.gstatic.com/firebase/8.7.0/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
 
 <script>
   // Your web app's Firebase configuration
@@ -28,8 +38,8 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+  
 </script>
-        <script src="script.js"></script>
+        <script src="./Javascript/script.js"></script>
     </body>
 </html>
